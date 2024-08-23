@@ -12,7 +12,12 @@
   --ff-poppins: "Poppins", sans-serif;
   --ff-open-sans: "Open Sans", sans-serif;
 }
-
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
 body {
   background-image: url("asset/bg-mobile.svg");
   background-repeat: no-repeat;
